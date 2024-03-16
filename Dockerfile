@@ -11,6 +11,7 @@ ARG PROJECT_NAME=web
 # Stage: starter
 FROM ${BASE_IMAGE} AS starter
 WORKDIR /app
+RUN apk add --no-cache python3
 RUN npm i -g turbo
 
 ################################################################################
@@ -87,7 +88,7 @@ ARG PROJECT_NAME
 ENV NODE_ENV=production
 ENV NEXT_TELEMETRY_DISABLED=1
 ARG PORT
-ENV PORT=${PORT:-3000}
+ENV PORT=${PORT:-3033}
 
 WORKDIR /app/apps/${PROJECT_NAME}
 
