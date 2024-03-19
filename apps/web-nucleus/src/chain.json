@@ -227,9 +227,9 @@
         }
       },
       "endpoints": {
-        "graphql": "http://127.0.0.1:8080/v1/graphql",
-        "graphqlWebsocket": "ws://127.0.0.1:8080/v1/graphql",
-        "publicRpcWebsocket": "http://127.0.0.1:26657/websocket"
+        "graphql": "http://10.8.8.5:8080/v1/graphql",
+        "graphqlWebsocket": "ws://10.8.8.5:8080/v1/graphql",
+        "publicRpcWebsocket": "http://host.docker.internal:26657/websocket"
       },
       "marketing": {
         "matomoURL": "https://analytics.bigdipper.live",
