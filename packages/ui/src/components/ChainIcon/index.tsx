@@ -292,6 +292,11 @@ const ChainIcon = ({
       [iconDark, iconLight] =
         type === 'icon' ? [jackalIconBoth, jackalIconBoth] : [jackalLogoDark, jackalLogoLight];
       break;
+    case 'nucleus':
+        // TODO: add nucleus icon when ready
+        [iconDark, iconLight] =
+          type === 'icon' ? [neutronIconBoth, neutronIconBoth] : [neutronLogoDark, neutronLogoLight];
+        break;
     case 'archway':
       [iconDark, iconLight] =
         type === 'icon' ? [archwayIconBoth, archwayIconBoth] : [archwayLogoDark, archwayLogoLight];
