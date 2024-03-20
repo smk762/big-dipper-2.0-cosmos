@@ -3,7 +3,7 @@ generates:
   ./src/graphql/types/general_types.ts:
     documents:
       - 'src/graphql/general/*'
-    schema: http://localhost/v1/graphql
+    schema: https://nucleus.graphql.komodo.earth/v1/graphql
     config:
       # omitOperationSuffix: true
       skipTypeNameForRoot: true
